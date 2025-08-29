@@ -2,14 +2,16 @@
 <html lang="en">
 <head>
               <title>Task 3</title>
+              <link rel="icon" href="images/icon.png">
 
 </head>
 <body>
       <h1>Personal Inforamtion</h1>  
       <p>
-              Name: Asma Khourdaji <br>
+             Name: Asma Khourdaji <br>
              Email: <a  href="mailto:asmakhourdaji@gmail.com">asmakhourdaji@gmail.com</a> <br>
-             My LinkedIn account: <a href="https://www.linkedin.com/in/asma-khourdaji-21a65a298?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"> LinkedIn </a>
+             My LinkedIn account: <a href="https://www.linkedin.com/in/asma-khourdaji-21a65a298?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"> LinkedIn </a> <br>
+             Phone Number: <a href="tel:+905313792686"> +905313792686</a>
              <hr>
 
              <h1>About Me</h1>
@@ -24,11 +26,33 @@
             <li>Programming Languages: C, C++, Java, Python, HTML</li>
             <li>Databases: MySQL, phpMyAdmin (via XAMPP)</li>
             <li>Web Development: Basic experience with HTML</li>
-            <h4>Languages:</h4>
-            <li>Arabic: Native</li>
-            <li>Turkish: Intermediate</li>
-            <li>English: Advanced </li>
              </ul>
+            <h4>Languages:</h4>
+            <table border="1">
+              <thead>
+                  <tr>
+                        <th>language</th>
+                        <th>type</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                        <td>Arabic</td>
+                        <td>Native</td>
+                       
+                  </tr>
+                   <tr>
+                        <td>English</td>
+                        <td>Advanced</td>
+                  </tr>
+                     <tr>
+                        <td>Turkish</td>
+                        <td>Intermediate</td>
+                  </tr>
+              </tbody>
+           
+            
+             </table>
  <hr>
 
 <h1>Send a Message</h1>
@@ -36,6 +60,8 @@
 <label for="name">Name:</label> 
 <input type="text" id="name" name="username" placeholder="enter your name" required> <br>
 <br>
+<label for="email">Email:</label>
+<input type="email" name="email" id="email" placeholder="enter your email" required><br>
 <label for="msg">Message:</label> 
 <textarea name="message" id="msg">message</textarea>
 <input type="submit" value="send">

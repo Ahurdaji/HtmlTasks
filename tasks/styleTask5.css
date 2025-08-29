@@ -1,0 +1,14 @@
+.Box {
+              width: 300px;
+              background-color: lightgreen;
+              color: green;
+              text-align: center;
+              padding: 15px;
+               margin: 20px auto;  /* auto to be in middle */
+              border: 3px solid yellow;
+
+}
+.first{
+              color: red;
+              font-size: large;
+}
